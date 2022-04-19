@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_open_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_teks_kesini"
+        android:text="@string/url_web"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_open_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_web"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_open_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_teks_kesini"
+        android:text="@string/universitas_muria_kudus"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_open_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_open_location"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_share_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_teks_kesini"
+        android:text="@string/dummy"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_share_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_share_text"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_open_cam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_camera"
+        android:layout_marginTop="16dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Intent Implicit</string>
+    <string name="masukkan_teks_kesini">Masukkan teks kesini</string>
+    <string name="url_web">https://developers.google.com/</string>
+    <string name="btn_web">Open Website</string>
+    <string name="btn_share_text">Share Text</string>
+    <string name="dummy">Lorem ipsum dolor sit amet</string>
+    <string name="btn_open_location">Open Location</string>
+    <string name="universitas_muria_kudus">Universitas Muria Kudus</string>
+    <string name="open_camera">Open Camera</string>
+</resources>
